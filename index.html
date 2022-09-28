@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabs</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="section">
+    <div class="title">
+      <h2>Pokemon Unite</h2>
+      <p>
+        Pokémon UNITE es el MOBA más exitoso de la historia desde su estreno
+      </p>
+    </div>
+
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="./hero.jpg" alt="" />
+      </article>
+      <article class="about">
+        <!-- btn container -->
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="historia">historia</button>
+          <button class="tab-btn" data-id="jugabilidad">Jugabilidad</button>
+          <button class="tab-btn" data-id="modos">Modos</button>
+        </div>
+        <div class="about-content">
+          <!-- single item -->
+          <div class="content active" id="historia">
+            <h4>historia</h4>
+            <p>
+              Pokémon UNITE es un videojuego gratuito del tipo multijugador de arena de batalla en línea (MOBA), desarrollado por TiMi Studios y publicado por The Pokémon Company para Android, iOS y Nintendo Switch. Se anunció en un Pokémon Presents el 24 de junio de 2020.
+              Los planes para un juego de Pokémon desarrollado por una compañía de videojuegos china se remontan a 2004, con una idea para un MMO de Pokémon que desarrollará iQue, información revelada durante la filtración de datos de Nintendo 2020. Se lanzó una prueba beta cerrada para el juego, inicialmente solo en China.
+              En febrero de 2021, la Compañía Pokémon anunció que está programado el lanzamiento de otra prueba beta cerrada en Canadá en marzo de 2021 exclusivamente para usuarios de teléfonos inteligentes Android.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="jugabilidad">
+            <h4>Jugabilidad</h4>
+            <p>
+              Pokémon UNITE es un videojuego multijugador de campo de batalla en línea con partidos que constan de dos equipos de cinco jugadores. El mapa del juego se divide en dos mitades, con varios puntos de control cada una. Los jugadores obtienen puntos para su equipo al derrotar a Pokémon «salvajes» de la IA (lo que se conoce como captura en el juego) y se mueven hacia uno de los puntos de control para marcar «goles». Cada partido tiene un límite de tiempo y el equipo con la mayor puntuación total al final de cada partido gana el juego. Los jugadores comienzan cada juego controlando Pokémon no evolucionados de bajo nivel, que pueden aumentar su nivel y obtener acceso a nuevos movimientos de combate a medida que ganan en batallas. La efectividad de tipo, una característica común en los juegos Pokémon, está ausente en Pokémon UNITE. Por otro lado, el juego incluye una mecánica de «movimiento Unite» única para cada personaje Pokémon.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="modos">
+            <h4>Modalidades y categorías</h4>
+            <p>
+              El juego presenta tres categorías de juego:
+              Normal, partida de 10 minutos y 5 Pokémon por equipo, donde solo está disponible el mapa Estadio Maremango;
+              Clasificatorio, idéntico al modo normal, solo que el jugador compite en la clasificación mundial, a lo largo de los siguientes rangos: Novato (Beginner), Alto (Great), Avanzado (Expert), Élite (Veteran), Experto (Ultra) y Maestro (Master);
+              Rápido, partidas de 5 minutos en los mapas Estadio Mare, Ciudad Álgida o Parque Aural. Cada mapa está disponible durante un día;
+              donde el jugador puede jugar contra jugadores aleatorios, con amigos o jugadores invitados a la antesala mediante código, o contra la CPU (en línea y fuera de línea). En algunas circunstancias, el juego empareja al jugador solo con bots en partidas tanto normales como clasificatorias.
+            </p>
+          </div>
+          <!-- end of single item -->
+        </div>
+      </article>
+    </div>
+  </section>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
