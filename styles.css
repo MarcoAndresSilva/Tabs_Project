@@ -223,6 +223,16 @@ About
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 550px) {
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+}
+
 .tab-btn:nth-child(1) {
   border-top-left-radius: var(--radius);
 }
